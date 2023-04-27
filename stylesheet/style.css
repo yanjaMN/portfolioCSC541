@@ -166,7 +166,7 @@
 	
 	.sidebyside{
 		display: flex;
-		align-items: center;
+		align-items: flex-start;
 		justify-content: center;
 		flex-direction: row;
 	}
@@ -260,7 +260,6 @@
 				.sidebyside{
 					flex-direction: row;
 					justify-content: center;
-					align-items: flex-start;
 				}
 				
 				.about-me{
