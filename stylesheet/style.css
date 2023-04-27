@@ -303,7 +303,7 @@
 				}
 				
 				footer{
-					bottom: calc(100vh - 100vh);
+					bottom: calc(100vh + 100px);
 				}
 			}
 			
