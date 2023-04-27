@@ -1,0 +1,24 @@
+/*This is a responsive image grid stylesheet.*/
+
+	/*Row CSS*/
+		.row{
+			display: flex;
+			flex: wrap;
+			padding: 0 4px;
+			justify-content: space-around;
+		}
+	
+	/*Column CSS*/	
+		.column{
+			flex: 50%;
+			max-width: 50%;
+			padding: 0 4px;
+		}
+	
+	/*Column Image CSS*/
+		.column img{
+			margin-top: 8px;
+			vertical-align: middle;
+			width: 100%;
+		}
+		
