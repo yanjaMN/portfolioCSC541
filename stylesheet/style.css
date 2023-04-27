@@ -19,6 +19,8 @@
 	
 	.second-body{
 		display: flex;
+		width: 100vw;
+		height: 100vh;
 		justify-content: center;
 		align-items: center;
 		align-self: center;
@@ -279,24 +281,27 @@
 				
 				.row{
 					flex-direction: column;
-					padding: 0 auto;
-					margin: 0 auto;
+					padding: 0;
+					margin: 0;
 				}
 				
 				.column{
-					flex: 100%;
-					min-width: 100%;
-					padding: 0 auto;
-					margin: 0 auto;
+					flex: 97%;
+					min-width: 97%;
+					padding: 0;
+					margin: 0;
 				}
 				
 				nav li{
 					float: none;
 					width: 85%;
 					margin: 10px auto;
-					padding: 5px auto;
+					padding: 5px 0;
 					text-align: center;
-					position: relative;
+				}
+				
+				footer{
+					bottom: calc(100vh - 100vh);
 				}
 			}
 			
