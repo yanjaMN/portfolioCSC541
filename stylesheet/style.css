@@ -303,7 +303,7 @@
 				}
 				
 				footer{
-					bottom: calc(0 + 100px);
+					bottom: calc(0 - 100px);
 				}
 			}
 			
