@@ -7,6 +7,42 @@
 		<meta name = "viewport" content = "width = device - width, initial-scale = 1">
 		<link rel = "stylesheet" href = "stylesheet/style.css">
 		<link rel = "stylesheet" href = "stylesheet/css reset.css">
+		
+		<style>
+			.btms{
+				border-radius: 5px;
+				border-width: 0px;
+				
+				width: 160px;
+				
+				padding: 5px 0 5px 0;
+				
+				font-weight: 700;
+				letter-spacing: 1px;
+				
+				background-color: rgba(0, 55, 45, 1.0);
+				color: red;
+			}
+			
+			.btms:hover{
+				color: red;
+				background-color: rgba(0, 0, 0, 1);
+			}
+			
+			.btms:active{
+				background-color: rgba(0, 55, 45, 0.8);
+				color: red;
+			}
+			
+			@keyframes fade{
+				0%{opacity: 0;}
+				100%{opacity: 1;}
+			}
+
+			.fade{
+				animation: fade 5s infinite alternate;
+			}
+		</style>
 	</head>
 	
 	<body class = "container">
@@ -29,7 +65,18 @@
 						<img src = "media/pfp.png" alt = "">
 						
 						<p>
-							Najya Mohd Najib<br><br>
+							<span class = "fade">Najya Mohd Najib</span><br><br>
+									<button class = "btms" onclick="msgToYou()">
+										Don't Click Me.
+									</button>
+									
+									<script>
+										function msgToYou() {
+										  alert("I think there's someone behind you.");
+										}
+									</script>
+									
+									<br><br>
 							Currently studying at UiTM Shah Alam, taking my
 							Bachelor's in Computer Science (Hons.) Multimedia Computing.
 						</p>			

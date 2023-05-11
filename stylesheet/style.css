@@ -207,11 +207,11 @@
 	background-size: cover;
 	background-position: center;
 	background-repeat: repeat;
-	transition: 5s;
+	transition: 10s;
 	
 	animation-name: bg;
 	animation-direction: linear;
-	animation-duration: 20s;
+	animation-duration: 30s;
 	animation-fill-mode: forwards;
 	animation-iteration-count: infinite;
 	animation-play-state: running;
@@ -223,19 +223,27 @@
 		background-image: url('bg.png');
 	}
 	
-	5%{
-		background-image: url(banner.png);
-	}
-	
-	10%{
+	40%{
 		background-image: url('bg.png');
 	}
 	
-	55%{
+	50%{
 		background-image: url(banner.png);
 	}
 	
-	58%{
+	60%{
+		background-image: url('bg.png');
+	}
+	
+	80%{
+		background-image: url('bg.png');
+	}
+	
+	90%{
+		background-image: url(banner.png);
+	}
+	
+	100%{
 		background-image: url('bg.png');
 	}
 }
